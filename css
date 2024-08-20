@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#cart {
+    width: 300px;
+    margin: auto;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.item-name {
+    flex: 1;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+}
+
+.quantity {
+    margin: 0 10px;
+}
+
+.like-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.liked {
+    color: red;
+}
+
+.delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: red;
+}
+
+.total-price {
+    font-weight: bold;
+    margin-top: 20px;
+}
